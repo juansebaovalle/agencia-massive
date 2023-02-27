@@ -1,0 +1,76 @@
+/* Estilos generales */
+
+#general {
+    background-color: #312a46;
+    font-family: 'Cabin', sans-serif;
+}
+
+.encabezado {
+    height: 20vh;
+}
+
+.title {
+    margin-top: 12vh;
+    font-weight: 700;
+}
+
+.text-bajada {
+    margin-top: 2vh;
+}
+
+#info-side {
+    margin-top: 5vh;
+    justify-content: center;
+    background-color: #201c36;
+    color: #dddddd;
+}
+
+#info-side a {
+    color: #dddddd;
+    text-decoration: none;
+}
+#info-side a:hover {
+    color: #ffffff;
+}
+
+#info-side a .bi {
+    color: #fd7726;
+}
+
+#info-side img {
+    height: 60%;
+    border-radius: 50%;
+}
+
+#info-side .list-group {
+    margin-left: 4rem;
+}
+
+.info-side-title {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.contact {
+    margin-left: 20px;
+}
+
+
+
+
+#content-right {
+    margin-top: 5vh;
+    background-color: #FFFFFF;
+    padding: 50px; 
+}
+
+
+
+
+
+
+
+
+
+
+
