@@ -5,10 +5,6 @@
     font-family: 'Cabin', sans-serif;
 }
 
-.encabezado {
-    height: 20vh;
-}
-
 .title {
     margin-top: 12vh;
     font-weight: 700;
@@ -34,7 +30,7 @@
 }
 
 #info-side a .bi {
-    color: #fd7726;
+    color: #ff9226;
 }
 
 #info-side img {
@@ -47,25 +43,65 @@
 }
 
 .info-side-title {
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 .contact {
     margin-left: 20px;
 }
 
+.form-title {
+    color: #ff9226;
+}
 
 
 
 #content-right {
     margin-top: 5vh;
     background-color: #FFFFFF;
+    color: #201c36;
     padding: 50px; 
 }
 
+.right .form-title {
+    font-size: 16pt;
+}
+
+.right a {
+    color: #555555;
+    font-weight: 700;
+    text-decoration: none;
+}
+.right a:hover {
+    color: #000000;
+}
+
+.icon-list a {
+    margin-right: 4px;
+}
+
+.tools-icon {
+    width: 50px;
+}
+
+.text-tools {
+    margin-left: 10px;
+}
+
+.text-tools strong {
+    color: #312a46;
+}
 
 
+@media only screen and (max-width: 800px) {
+    #info-side .list-group {
+        margin-left: 2rem;
+      }
+
+      .text-tools {
+        display: none;
+      }
+  }
 
 
 
