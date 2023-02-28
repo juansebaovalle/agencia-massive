@@ -25,6 +25,7 @@
     color: #dddddd;
     text-decoration: none;
 }
+
 #info-side a:hover {
     color: #ffffff;
 }
@@ -34,12 +35,17 @@
 }
 
 #info-side img {
-    height: 60%;
+    height: 100%;
     border-radius: 50%;
+}
+
+#photo {
+    margin-top: -10rem;
 }
 
 #info-side .list-group {
     margin-left: 4rem;
+    margin-top: -5rem;
 }
 
 .info-side-title {
@@ -60,7 +66,7 @@
     margin-top: 5vh;
     background-color: #FFFFFF;
     color: #201c36;
-    padding: 50px; 
+    padding: 50px;
 }
 
 .right .form-title {
@@ -72,6 +78,7 @@
     font-weight: 700;
     text-decoration: none;
 }
+
 .right a:hover {
     color: #000000;
 }
@@ -96,17 +103,18 @@
 @media only screen and (max-width: 800px) {
     #info-side .list-group {
         margin-left: 2rem;
-      }
+    }
 
-      .text-tools {
+    .text-tools {
         display: none;
-      }
-  }
+    }
 
+    #info-side img {
+        height: 65%;
+    }
 
+    #photo {
+        margin-top: 2rem;
+    }
 
-
-
-
-
-
+}
